@@ -110,16 +110,16 @@ public class Voistlus{
         for (double i = 0; i < dx; i ++){
             if(mitmes == 1){
                 esimeneSoit = new rada(0, esimeneAk, esimeneAkd, teePikkus);
-                System.out.println("\n" + esimeneNimi + esimeneAuto.toString() + " Teepikkus: " + teePikkus + " | " + esimeneSoit.loppAeg());
+                System.out.println("\n" + esimeneNimi + esimeneAuto.toString() + "Teepikkus: " + teePikkus + " | Lõpetusaeg: " + esimeneSoit.loppAeg());
             } else if(mitmes == 2){
                 teineSoit = new rada(0, teineAk, teineAkd, teePikkus);
-                System.out.println("\n" + teineNimi + teineAuto.toString() + " Teepikkus: " + teePikkus + " | "  + teineSoit.loppAeg());
+                System.out.println("\n" + teineNimi + teineAuto.toString() + "Teepikkus: " + teePikkus + " | Lõpetusaeg: "  + teineSoit.loppAeg());
             } else if(mitmes == 3){
                 kolmasSoit = new rada(0, kolmasAk, kolmasAkd, teePikkus);
-                System.out.println("\n" + kolmasNimi + kolmasAuto.toString() + " Teepikkus: " + teePikkus + " | "  + kolmasSoit.loppAeg());
+                System.out.println("\n" + kolmasNimi + kolmasAuto.toString() + "Teepikkus: " + teePikkus + " | Lõpetusaeg: "  + kolmasSoit.loppAeg());
             } else if(mitmes == 4){
                 neljasSoit = new rada(0, neljasAk, neljasAkd, teePikkus);
-                System.out.println("\n" + neljasNimi + neljasAuto.toString() + " Teepikkus: " + teePikkus + " | "  + neljasSoit.loppAeg());
+                System.out.println("\n" + neljasNimi + neljasAuto.toString() + "Teepikkus: " + teePikkus + " | Lõpetusaeg: "  + neljasSoit.loppAeg());
             } else {
                 throw new RuntimeException("Tekkis viga autode võistlusel.");
             }
