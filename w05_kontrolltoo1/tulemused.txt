@@ -1,0 +1,5 @@
+
+Mercedes | Kiirus: 30.0 m/s | Auto kaugus maantee algusest: 90.0 meetrit | Auto on liikunud algasukohast: 90.0 meetrit | 
+BMW | Kiirus: 25.0 m/s | Auto kaugus maantee algusest: 9000.0 meetrit | Auto on liikunud algasukohast: 7500.0 meetrit | 
+Audi | Kiirus: 35.0 m/s | Auto kaugus maantee algusest: 252750.0 meetrit | Auto on liikunud algasukohast: 252000.0 meetrit | 
+Tesla | Kiirus: 40.0 m/s | Auto kaugus maantee algusest: 12000.0 meetrit | Auto on liikunud algasukohast: 12000.0 meetrit | 
