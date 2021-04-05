@@ -1,0 +1,3 @@
+interface ValikuLiides{
+    void alusta();
+}
