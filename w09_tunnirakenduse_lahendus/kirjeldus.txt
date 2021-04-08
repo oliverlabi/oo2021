@@ -1,1 +1,26 @@
-Tunnis ette võetud teemal viimistletud omapoolne rakendus.
+Vahend loogikalülituste elektriskeemi kokkupanekuks
+
+Versioon 1
+Liidesed:
+    Voolujuht   meetod: boolean kasJuhib();
+
+    Lulitatav   meetod: void seisund(boolean sees);
+
+Klassid:
+    Sisend implements Lulitatav
+        lisa(Lulitatav l);
+        void seisund(boolean sees);
+    
+    Luliti implements Lulitatav, Voolujuht
+
+    Hulgiuhendus implements Voolujuht
+        Roopuhendus
+        Jadauhendus
+
+Looge liidesed ja klassid. Tekitage kahe lülitiga rööpühendus.
+Katsetage, et ühendus juhiks vaid siis, kui vähemalt üks lüliti on sees
+
+Kodutöö ideid - loogikaskeem, uue keerulisema skeemi koostamine roop ja jadaga, 
+
+loogikaskeem - klassidega plokid and, or, not. plokid ühendada
+carnaugh kaart?
