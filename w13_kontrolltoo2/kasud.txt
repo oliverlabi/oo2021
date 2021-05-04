@@ -1,0 +1,4 @@
+javac -classpath junit4.jar *.java 
+
+java -classpath junit4.jar;. org.junit.runner.JUnitCore KalkulaatoriTestid
+cmd
